@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background: rgb(205, 237, 241);
+}
+
+.upper {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.upper i {
+    font-size: 23px;
+}
+
+.vl {
+    border-left: 2px solid rgb(81, 164, 247);
+    height: 18px;
+}
+
+.upper h3 {
+    position: absolute;
+    top: -5px;
+    left: 30px;
+    color: rgb(81, 164, 247);
+    font-family: 'Dancing Script', cursive;
+    font-weight: 100;
+}
+
+.header {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 6px;
+    background-color: rgb(57, 196, 214);
+}
+
+.header ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 3px;
+}
+
+.header .active {
+    background: rgb(85, 85, 231);
+    color: antiquewhite;
+}
+
+#abt,
+#prj,
+#cnt {
+    border-left: 2px solid dodgerblue;
+    border-radius: 2px;
+    padding: 3px;
+
+}
+
+.header ul a:hover {
+    background: rgb(85, 85, 231);
+    color: antiquewhite;
+}
+
+/*home page*/
+.main img {
+    width: auto;
+    height: 700px;
+    margin-left: 170px;
+    object-fit: fill;
+}
+
+.main,
+.aboutt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.aboutt img {
+    width: auto;
+    height: 700px;
+    margin-left: 40px;
+    object-fit: fill;
+    margin-top: 5px;
+}
+
+.content {
+    margin-left: 50px;
+    margin-top: 250px;
+    padding-left: 160px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 2px;
+}
+
+.content h2 {
+    margin-left: -50px;
+    margin-right: 70px;
+    color: rgb(72, 72, 219);
+}
+
+.content h3 {
+    margin-top: 19px;
+    margin-left: -50px;
+    margin-right: 400px;
+    color: rgb(30, 131, 117);
+}
+
+/*footer design*/
+.footer {
+    background-color: rgb(97, 97, 218);
+    height: 40px;
+    padding-left: 677px;
+    padding-top: 20px;
+}
+
+.footer i {
+    padding-left: 15px;
+}
+
+.footText {
+    background-color: rgb(56, 56, 199);
+    color: rgb(138, 147, 160);
+    text-align: center;
+    height: 23px;
+    padding: 5px;
+
+}
+
+
+/*about design*/
+.about {
+    height: 800px;
+}
+
+.about .upper h3 {
+    position: relative;
+    top: -5px;
+    left: 5px;
+    color: rgb(81, 164, 247);
+    font-family: 'Dancing Script', cursive;
+    font-weight: 100;
+}
+
+.details {
+    padding-left: 30px;
+    padding-top: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.details h2 {
+    color: rgb(96, 70, 238);
+    font-size: small;
+}
+
+.details pre {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(116, 96, 233);
+}
+
+.about .footer {
+    background-color: rgb(97, 97, 218);
+    position: relative;
+    /* height: 40px; */
+    padding-left: 677px;
+    padding-top: 15px;
+    top: -15px;
+}
+
+.about .footer i {
+    padding-left: 15px;
+}
+
+.about .footText {
+    background-color: rgb(56, 56, 199);
+    color: rgb(138, 147, 160);
+    text-align: center;
+    position: relative;
+    top: -22px;
+    padding-top: 7px;
+
+}
+
+/* projects */
+.Projects {
+    width: 100%;
+    height: 84vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    color: rgb(122, 122, 206);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.restraunt {
+    width: 800px;
+    height: 200px;
+    border: groove rgb(184, 196, 195);
+    border-radius: 4px;
+    display: flex;
+    font-size: 12px;
+}
+
+.restraunt h3 {
+
+    padding-left: 20px;
+}
+
+
+
+.music {
+    width: 800px;
+    height: 200px;
+    border: groove rgb(184, 196, 195);
+    border-radius: 4px;
+    display: flex;
+    font-size: 12px;
+}
+
+.music h3 {
+    font-weight: 900;
+    padding-left: 20px;
+}
+
+.cardmemo {
+    width: 800px;
+    height: 200px;
+    border: groove rgb(184, 196, 195);
+    border-radius: 4px;
+    display: flex;
+    font-size: 12px;
+}
+
+.cardmemo h3 {
+    padding-left: 20px;
+}
+
+.restraunt img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.music img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cardmemo img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* contact page styling */
+.contactMain {
+    width: auto;
+    height: 700px;
+    /* margin-left: -600px; */
+    object-fit: fill;
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+}
+
+.contactMain img {
+    object-fit: cover;
+    width: auto;
+
+
+}
+
+.contactMain ul {
+    list-style: none;
+    margin-left: -320px;
+    margin-top: 200px;
+}
+
+.contactMain ul li i {
+    font-size: 40px;
+    border-radius: 50%;
+    background-color: black;
+    color: antiquewhite;
+    padding: 10px;
+
+}
+
+.contactMain ul li span {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(77, 77, 201);
+}
